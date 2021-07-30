@@ -1,0 +1,292 @@
+
+* {
+    
+    font-family:Helvetica neue, roboto !important ;
+    
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    letter-spacing: 2px;
+    line-height: 22px;
+   
+   }
+   .buttonlog{
+    padding: 9px 25px;
+    background-color:rgb(172,204,240,1);
+    border: none ;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: -10px;
+    }
+    .buttonlog:hover{
+        background-color:rgb(172,204,240,0.8);
+    }
+   #button1{
+    padding: 9px 25px;
+    background-color:rgb(172,204,240,1);
+    border: none ;
+    margin-top:40px;
+    color:#33658A ;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    }
+    #button1:hover{
+        background-color:rgb(172,204,240,0.8);
+    }
+   .container{
+    margin: auto;
+    margin-top: 20px;
+    /* border: 3px solid black; */
+}
+.col-md-, .col-lg-4{
+    margin-bottom: 20px;
+}
+.sty{
+    font-size: 18px !important;
+    color: black !important;
+}
+.num{
+    width: 80px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+.uk-border-circle{
+    width: 100px !important;
+    height: 100px !important;
+}
+.fa-cart-arrow-down{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+img{
+    height: 200px;
+    width: 300px;
+}
+h1{
+    text-align: center;
+}
+
+  
+li , a  {
+    font-weight: 500 ;
+    font-size: 16px;
+    color:black;
+    text-decoration: none ;
+}
+h1 {
+    /*color:#976B36;*/
+color:black;
+    margin-right: auto; 
+    cursor: pointer;
+    font-style: normal;
+    font-size: 28px;
+}
+.center__row{
+    list-style: none;
+}
+.center__row li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.center__row li a {
+    transition: all 0.3s ease 0s;
+}
+.container__center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* LANDING AREA =============*/
+#landing__area{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px  ;
+    background-color: 	#d1d2d5
+
+ ;
+    /*position: fixed;*/
+    width: 100%;}
+
+
+#landing__area nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px  ;
+    background-color: 	#d1d2d5
+
+ ;
+    /*position: fixed;*/
+    width: 100%;}
+
+nav .logo{
+    
+    width: 80px;
+    height: 80px;
+    margin: right 0; 
+    cursor: pointer;
+
+    
+}
+
+nav a{
+    color: black;
+    margin: 0 20px;
+}
+nav a:hover{color: blanchedalmond
+
+;}
+
+
+footer {
+    background-color: 	#d1d2d5
+
+ ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /*position: fixed;*/
+  
+    width: 100%;
+    color: black;
+  
+    
+    
+}
+
+.logo  {
+    margin: right 0; 
+    cursor: pointer;
+}
+
+.navlinks{
+    list-style: none;
+}
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover {
+   color: blanchedalmond ; 
+}
+
+h1 {
+	/*color:#976B36;*/
+color:black;
+    margin-right: auto; 
+    cursor: pointer;
+    font-style: normal;
+}
+p1{
+    font-size: 16px;
+    font-style: bold ;
+}
+
+nav a {
+    
+    color:black;
+}
+.title{
+  color:rgb(11, 196, 125)
+}
+nav {
+    display: inline;
+    display: block;
+    padding: 20px;
+    color:black;
+}
+ 
+
+.body2{
+    background-color: #eee3d3;
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px ;
+}
+.containerBody{
+    padding: 30px;
+}
+
+p{
+color: black;
+}
+/* h3{
+    color: #816A64;
+    
+} */
+/* Selecting styles to be applied to several classes */
+
+
+
+h2{
+   color: #63596C
+}
+.fot{
+    font-size: 11px;
+    color: black;
+    text-align: center;
+}
+
+.foot {
+    background-color: 	#d1d2d5
+
+ ;
+    flex-direction: row;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /*position: fixed;*/
+  
+    width: 100%;
+  
+    
+    
+}
+.footer{
+
+    background-color: 	#d1d2d5
+
+ ;
+}
+ .footer__cont{
+    width: 60%;
+    margin: auto;
+}
+
+.footer__cont p{
+    color: #33658A;
+}
+
+.footer__cont .fab{
+    color: #33658A;
+    font-size: 20px;
+    margin: 0 10px;
+} 
+.logo1{
+    width: 100px;
+    height: 100px;
+    margin: right 0; 
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
